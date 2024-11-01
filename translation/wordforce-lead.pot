@@ -1,0 +1,274 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WordForce Lead Form\n"
+"POT-Creation-Date: 2020-11-16 21:38+0100\n"
+"PO-Revision-Date: 2015-08-14 23:18+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wordforce-lead.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: wordforce-lead.php:9
+msgid "wordforce-lead"
+msgstr ""
+
+#: wordforce-lead.php:15 wordforce-lead.php:319
+msgid "General"
+msgstr ""
+
+#: wordforce-lead.php:17 wordforce-lead.php:49 wordforce-lead.php:182
+#: wordforce-lead-variables.php:58 wordforce-lead.php:62
+msgid "Email"
+msgstr ""
+
+#: wordforce-lead.php:20
+msgid "Uninstall"
+msgstr ""
+
+#: wordforce-lead.php:23 wordforce-lead.php:43
+msgid "Submissions"
+msgstr ""
+
+#: wordforce-lead.php:26 wordforce-lead.php:52 wordforce-lead.php:190
+#: wordforce-lead-variables.php:70
+msgid "Subject"
+msgstr ""
+
+#: wordforce-lead.php:29 wordforce-lead.php:58
+msgid "Sum captcha"
+msgstr ""
+
+#: wordforce-lead.php:32
+msgid "Reply"
+msgstr ""
+
+#: wordforce-lead.php:35 wordforce-lead.php:38 wordforce-lead.php:64
+msgid "Privacy"
+msgstr ""
+
+#: wordforce-lead.php:41
+msgid "Anchor"
+msgstr ""
+
+#: wordforce-lead.php:44 wordforce-lead.php:320
+msgid "Labels"
+msgstr ""
+
+#: wordforce-lead.php:46 wordforce-lead.php:174 wordforce-lead-variables.php:46 wordforce-lead.php:61
+msgid "Name"
+msgstr ""
+
+#: wordforce-lead.php:55
+msgid "Captcha"
+msgstr ""
+
+#: wordforce-lead.php:61 wordforce-lead.php:214 wordforce-lead-variables.php:106
+msgid "Message"
+msgstr ""
+
+#: wordforce-lead.php:67 wordforce-lead.php:230 wordforce-lead-variables.php:130
+msgid "Submit"
+msgstr ""
+
+#: wordforce-lead.php:70
+msgid "Name error"
+msgstr ""
+
+#: wordforce-lead.php:73
+msgid "Email error"
+msgstr ""
+
+#: wordforce-lead.php:76
+msgid "Subject error"
+msgstr ""
+
+#: wordforce-lead.php:79
+msgid "Captcha error"
+msgstr ""
+
+#: wordforce-lead.php:82
+msgid "Sum captcha error"
+msgstr ""
+
+#: wordforce-lead.php:85
+msgid "Message error"
+msgstr ""
+
+#: wordforce-lead.php:88 wordforce-lead.php:321
+msgid "Messages"
+msgstr ""
+
+#: wordforce-lead.php:90
+msgid "Server error message"
+msgstr ""
+
+#: wordforce-lead.php:93
+msgid "Thank you message"
+msgstr ""
+
+#: wordforce-lead.php:96
+msgid "Reply message"
+msgstr ""
+
+#: wordforce-lead.php:113
+msgid "Do not delete form submissions and settings."
+msgstr ""
+
+#: wordforce-lead.php:121
+msgid "List form submissions in dashboard."
+msgstr ""
+
+#: wordforce-lead.php:129
+msgid "Disable subject field."
+msgstr ""
+
+#: wordforce-lead.php:137
+msgid "Activate sum captcha."
+msgstr ""
+
+#: wordforce-lead.php:145
+msgid "Activate confirmation email to sender."
+msgstr ""
+
+#: wordforce-lead.php:153
+msgid "Activate privacy consent checkbox on form."
+msgstr ""
+
+#: wordforce-lead.php:161
+msgid "Disable collection of IP address."
+msgstr ""
+
+#: wordforce-lead.php:169
+msgid "Scroll back to form position after submit."
+msgstr ""
+
+#: wordforce-lead.php:198 wordforce-lead-variables.php:82
+#, php-format
+msgid "Enter number %s"
+msgstr ""
+
+#: wordforce-lead.php:206 wordforce-lead-variables.php:94
+#, php-format
+msgid "Solve sum %s"
+msgstr ""
+
+#: wordforce-lead.php:222 wordforce-lead-variables.php:118
+msgid ""
+"I consent to having this website collect my personal data via this form."
+msgstr ""
+
+#: wordforce-lead.php:238 wordforce-lead.php:254 wordforce-lead-variables.php:142
+#: wordforce-lead-variables.php:166
+msgid "Please enter at least 2 characters"
+msgstr ""
+
+#: wordforce-lead.php:246 wordforce-lead-variables.php:154
+msgid "Please enter a valid email"
+msgstr ""
+
+#: wordforce-lead.php:262 wordforce-lead-variables.php:178
+msgid "Please enter the correct number"
+msgstr ""
+
+#: wordforce-lead.php:270 wordforce-lead-variables.php:190
+msgid "Please enter the correct result"
+msgstr ""
+
+#: wordforce-lead.php:278 wordforce-lead-variables.php:202
+msgid "Please enter at least 10 characters"
+msgstr ""
+
+#: wordforce-lead.php:286 wordforce-lead-variables.php:214
+msgid "Error: "Your request was unable to be completed at this time. Please check that your information was entered correctly or try again later, thank you."
+msgstr ""
+
+#: wordforce-lead.php:294 wordforce-lead.php:302 wordforce-lead-variables.php:226
+#: wordforce-lead-variables.php:238
+msgid "Thank you! You will receive a response as soon as possible."
+msgstr ""
+
+#: wordforce-lead.php:306
+msgid "Displayed in the confirmation email to sender."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: wordforce-lead.php:314 wordforce-lead-widget.php:11 wordforce-lead-widget.php:21
+msgid "wordforce-lead Lead Form"
+msgstr ""
+
+#: wordforce-lead.php:336
+msgid "More customizations can be made by using (shortcode) attributes."
+msgstr ""
+
+#: wordforce-lead.php:337 wordforce-lead-widget.php:39
+msgid "click here"
+msgstr ""
+
+#: wordforce-lead.php:339 wordforce-lead-widget.php:42
+#, php-format
+msgid ""
+msgstr ""
+
+#: wordforce-lead-submission.php:44
+#, php-format
+msgid "Privacy consent: %s"
+msgstr ""
+
+#: wordforce-lead-submission.php:52
+#, php-format
+msgid "IP: %s"
+msgstr ""
+
+#: wordforce-lead-widget.php:10
+msgid "Display your contact form in a widget."
+msgstr ""
+
+#: wordforce-lead-widget.php:28
+msgid "Title"
+msgstr ""
+
+#: wordforce-lead-widget.php:32
+msgid "Text above form"
+msgstr ""
+
+#: wordforce-lead-widget.php:36
+msgid "Attributes"
+msgstr ""
+
+#: wordforce-lead-widget.php:37
+msgid "Example: email_to=&quot;your-email-here&quot;"
+msgstr ""
+
+#: wordforce-lead-widget.php:43
+#, php-format
+msgid "For plugin settings %s."
+msgstr ""
+
+#: wordforce-lead.php:120
+msgid "Settings"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This is a lightweight plugin to create a customized contact form. Add "
+"shortcode [contact] on a page or use the widget to display your form."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "wordforce-lead"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid ""
+msgstr ""

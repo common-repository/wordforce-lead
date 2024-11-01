@@ -1,0 +1,323 @@
+/* For reference only - plugin loads the minified CSS file */
+
+/* WordForce Lead Stylesheet */
+
+/* Form */
+.wrap{
+    background-color: #f8f8f8; 
+}
+
+.wrap > form > h2{
+    margin-top: 15px!important;     
+    padding: 5px 8px;
+}
+
+.wp-color-result{
+    margin-top: -6px!important;
+}
+
+.nav-tab-wrapper .nav-tab{
+    width: 160px;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-left: 0px;
+    margin-right: 0.5rem;
+    background-color:  #f6f6f6;
+    font-weight:  700;
+}
+
+.nav-tab-active, .nav-tab-active:focus, .nav-tab-active:focus:active, .nav-tab-active:hover{
+    border-top: 4px solid #2271b1; 
+    border-bottom: 1px solid #f0f0f1;
+    background: #ffffff!important;
+    color: #000;
+}
+ 
+.wrap > form > table {
+    border-bottom:  1px dashed #dcdcde;
+    border-left:  1px dashed #dcdcde;
+    border-right:  1px dashed #dcdcde; 
+    background: #ffffff;
+}
+
+.panel-heading{
+    font-size:16pt;
+}
+.form-box{
+    border-radius: 4px;
+    padding: 4rem 6rem;
+    background-image: url('../images/bg-wordforce.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.innerbox{
+    background-color: rgb(255 255 255 / 60%); 
+}
+.innerbox .panel{
+    padding: 4%;
+}
+
+.innerbox .panel input{
+    border:1px solid #c1c1c1;
+    height: calc(1.5em + .75rem + 12px);
+    
+}
+
+
+.form-table th {
+    vertical-align: top;
+    text-align: left;
+    padding: 20px 10px 20px 20px;
+    width: 200px;
+    line-height: 1.3;
+    font-weight: 600;
+}
+
+.success{
+  color:green;
+  background-color: white;
+  text-align: center;
+}
+
+
+.danger{
+  color:red;
+  background-color: white;
+  text-align: center;
+}
+
+.btn-link:focus, .btn-link:hover {
+    color: #23527c;
+    text-decoration: none!important;
+    background-color: transparent;
+}
+
+#wpfooter{
+    display: none;
+}
+
+#required_field{
+  color:red!important;
+}
+
+.response_one{
+  background: lightgreen;
+  color:green;
+  border:1px solid green;
+  text-align: center;
+  padding: 2% 2%;
+  border-radius: 5px;
+  
+}
+
+.response_two{
+  background: pink;
+  color:red;
+  border:1px solid red;
+  text-align: center;
+  padding: 2% 2%;
+  border-radius: 5px;
+}
+
+#wdfl {clear:both;}
+#wdfl:after {content:''; display:block; height:0; clear:both;}
+.wdfl-container {
+	background:#fff;
+	border-radius:5px;
+	padding: 25px 25px 10px;
+}
+
+h2, h3{
+  font-size: 15pt!important;
+}
+
+#getResponse{
+    margin-bottom:0px!important;
+}
+
+#response{
+    font-size:11pt!important;
+    background:none;
+    padding-top:5px;
+    text-align:center;
+}
+#responses{
+    font-size:11pt!important;
+    background:none; 
+    text-align:center;
+}
+
+
+#api, #org, #con{
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+}
+/* Form anchor */
+#wdfl-anchor {clear:both;}
+
+/* Form elements */
+#wdfl .form-group {clear:both; margin-bottom:15px;}
+#wdfl .form-group label {margin-bottom:5px; display:block;font-size:15px;}
+#wdfl .form-group input[type="text"], #wdfl .form-group input[type="email"],#wdfl .form-group textarea {width:100%; font-family:inherit;}
+
+#wdfl input,#wdfl textarea {
+  background: #fff;
+  color: #525865;
+  border-radius: 4px;
+  border: 1px solid #d1d1d1;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.07);
+  font-family: inherit;
+  font-size: 1em;
+  line-height: 1.45;
+  outline: none;
+  padding: 6px 12px;
+  -webkit-transition: .18s ease-out;
+  -moz-transition: .18s ease-out;
+  -o-transition: .18s ease-out;
+  transition: .18s ease-out;
+}
+#wdfl input:hover,#wdfl textarea:hover {
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.02);
+}
+#wdfl input:focus,#wdfl textarea:hover {
+  color: #4b515d;
+  border: 1px solid #B8B6B6;
+  box-shadow:  1px 2px 4px rgba(0, 0, 0, 0.01), 0px 0px 8px rgba(0, 0, 0, 0.2);
+}
+
+#wdfl .form-group textarea {width:100%; font-family:inherit; font-size:14px;}
+#wdfl .form-group button {font-family:inherit; font-size:14px;}
+.wdfl-name-group {}
+.wdfl-email-group {}
+.wdfl-subject-group {}
+.wdfl-captcha-group {}
+.wdfl-message-group {}
+.wdfl-privacy-group {}
+.wdfl-submit-group {}
+#wdfl h3{
+	margin:0 0 20px 0;
+}
+
+/* Error */
+#wdfl .wdfl-error {border-color:#ff0000; color:#ff0000;}
+
+/* Hide elements */
+#wdfl .wdfl-hide {display:none;}
+
+#wdfl .wdfl-btn{
+	background:#FF8000;
+	border: 1px solid #FF8000;
+    color: #fff;
+    font-size: 16px;
+	border-radius: 4px;
+    padding: 10px 30px;
+    width: unset;
+}
+/* Success or fail message */
+.wdfl-info {font-style:italic; font-size:1.20em;}
+
+/* Widget */
+.wdfl-widget {clear:both;}
+.wdfl-widget:after {content:''; display:block; height:0; clear:both;}
+
+/* Widget text above form */
+.wdfl-widget-text {clear:both;}
+
+/* Fix for privacy consent checkbox when using Bootstrap */
+#wdfl .form-group .custom-control-input {position:static; z-index:auto; opacity:1;}
+#wdfl .form-group .input-sm, #wdfl .form-group .input-sm {
+    height: 35px;
+	min-height: 35px;
+    padding: 5px 10px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+#wdfl .form-group .input-md, #wdfl .form-group .input-md {
+    height: 45px;
+	min-height: 45px;
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    border-radius: 2px;
+}
+
+#wdfl .form-group .input-lg, #wdfl .form-group .input-lg {
+    height: 55px;
+	min-height: 55px;
+    padding: 10px 16px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+#wdfl .form-group .btn-sm {
+	height:35px;
+    padding: 5px 30px;	
+}
+#wdfl .form-group .btn-md {
+	height:45px;	
+}
+#wdfl .form-group .btn-lg {
+	height:55px;	
+}
+#wdfl .form-group.required label:after {
+    content:" *";
+    color: red;
+}
+
+@media only screen and (min-width: 768px) {
+	#wdfl .mgrt0{
+		padding-right: 0 !important;
+	}
+}
+ 
+#rr{
+ font-size: 13pt;
+}
+
+#my-unique-table{
+    width: 100%;
+} 
+
+#my-unique-table thead tr th{ 
+    font-size: 12pt;
+}
+
+.wp-color-result-text{
+    display: none;
+}
+.wp-picker-container .wp-color-result.button {
+ margin: 0px;
+}
+
+#my-unique-table tbody tr td{    
+    font-size: 12pt;
+}
+
+#my-unique-table tfoot tr th{    
+    font-size: 12pt;
+}
+/*#wdfl .form-group.asterisk input::-webkit-input-placeholder::after {
+    content:" *";
+    color: red;
+}
+#wdfl .form-group.asterisk input:-moz-placeholder:after {
+	content:" *";
+    color: red;
+}
+#wdfl .form-group.asterisk input::-moz-placeholder::after  {
+   content:" *";
+   color: red;
+}
+#wdfl .form-group.asterisk input:-ms-input-placeholder:after  {
+   content:" *";
+   color: red;
+}*/
+
+
+@media only screen and (max-width: 425px) {
+    .form-box{
+        border-radius: 4px;
+        padding: 0px!important;  
+    }
+}
